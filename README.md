@@ -7,16 +7,55 @@ Philia 1.0 program is a stock-flow consistent (SFC) model that shows how money c
 - It takes into account the temporal dynamics to analyze the short- and long-term effects of economic policies. 
 
 ## Files and Running the program
-Philia1.0.zip include all the modules.
+To run the model in EVIEWS, you just need to launch 00-philia.
+
+Philia 1.0 Instructions.pdf shows the steps to run the Philia 1.0 Program with screenshots
+
+Philia1.0.zip include all the code modules.
 
 Philia-PRGM.docx displays the entire program by module in a WORD file.
 
 Technicalappendix_PHILIA.docx describes the SFC model and all the equations.
 
-To run the model in EVIEWS, you just need to launch 00-philia.
-
 For each module, two files are available VP (for VARIABLES AND PARAMETERS) and EQ (for EQUATIONS).
 
+
+## Instructions for Running the Philia 1.0 Program
+
+### Requirements
+
+    The statistical software EViews must be installed on your computer.
+
+### Steps to Follow
+
+    1. Download and Extract the Program
+
+        - Download the Philia 1.0 zip file.
+        - Extract all files from the archive.
+
+    2. Launch the Program
+
+        - Open the file 00-philia (double-click to launch).
+        - This will automatically open EViews and run the 00-philia.prg program.
+
+    3. After Execution
+
+        - The program will generate a Workfile automatically.
+        - This Workfile contains all the variables created for each period and each scenario:
+            - var_0: base scenario
+            - var_1: alternative scenario (Scenario 1)
+
+    4. Data Analysis
+
+        - The model is a Stock-Flow Consistent (SFC) model.
+        - Analysis starts from the period when the model stabilizes: from period 150 to period 210.
+        - For example, GDP is stored in the variable y_0.
+
+    5. Accessing Additional Modules
+
+        - To open the various modules called by 00-philia, go to:
+             File → Open → Program...
+ 
 ## Modules
 In the Philia 1.0 program, the various economic sectors have been segmented into modules for better analysis. 
 
@@ -33,6 +72,8 @@ In all, there are 11 modules:
 - Module 10 named 10-ecosystem   : presents the relationship between the ecosystem and the economy 
 - Module 11 named 11-biomimicry  : contains the intersectoral monetary ‘trophic’ flows
 
+## LICENSE
 
+This project is licensed under the terms of the license CC BY 4.0.
 
 
