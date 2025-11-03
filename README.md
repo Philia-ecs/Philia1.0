@@ -7,15 +7,17 @@ Philia 1.0 program is a stock-flow consistent (SFC) model that shows how money c
 - It takes into account the temporal dynamics to analyze the short- and long-term effects of economic policies. 
 
 ## Files and Running the program
-To run the model in EVIEWS, you just need to launch 00-philia.
+To run the model in EVIEWS, you just need to launch the executable module 00-philia.prg.
 
 Philia 1.0 Instructions.pdf shows the steps to run the Philia 1.0 Program with screenshots
 
-Philia1.0.zip include all the code modules.
+Philia 1.0.zip include all the code modules.
 
 Philia-PRGM.docx displays the entire program by module in a WORD file.
 
 Technicalappendix_PHILIA.docx describes the SFC model and all the equations.
+
+User Manual-Philia.pdf explains how the SFC model Philia 1.0 can be used.
 
 For each module, two files are available VP (for VARIABLES AND PARAMETERS) and EQ (for EQUATIONS).
 
@@ -35,7 +37,7 @@ For each module, two files are available VP (for VARIABLES AND PARAMETERS) and E
 
     2. Launch the Program
 
-        - Open the file 00-philia (double-click to launch).
+        - Open the file 00-philia.prg (double-click to launch).
         - This will automatically open EViews and run the 00-philia.prg program.
 
     3. After Execution
@@ -59,18 +61,22 @@ For each module, two files are available VP (for VARIABLES AND PARAMETERS) and E
 ## Modules
 In the Philia 1.0 program, the various economic sectors have been segmented into modules for better analysis. 
 
+00-philia.prg is the executable module.
+
 In all, there are 11 modules:
-- Module  1 named 01-macromodel  : covers the basic equations of a macroeconomic model
-- Module  2 named 02-households  : concerns worker and rentier households within the economy 
-- Module  3 named 03-social      : invests the social enterprises as companies with virtuous investment behavior
-- Module  4 named 04-capitaliste : adresses listed corporation as a response to market logic
-- Module  5 named 05-bank        : deals with banks in the granting of credit and the purchase of debt
-- Module  6 named 06-fund        : examines investment funds in their financing of the economy
-- Module  7 named 07-centralbank : discusses the role of central banks as regulators
-- Module  8 named 08-ratesreturns: determines different interest rates and rates of return
-- Module  9 named 09-public      : studies the public sector, both government and state-owned enterprises
-- Module 10 named 10-ecosystem   : presents the relationship between the ecosystem and the economy 
-- Module 11 named 11-biomimicry  : contains the intersectoral monetary ‘trophic’ flows
+- Module  1 named 01-macromodel   : covers the basic equations of a macroeconomic model
+- Module  2 named 02-households   : concerns worker and rentier households within the economy 
+- Module  3 named 03-social       : invests the social enterprises as companies with virtuous investment behavior
+- Module  4 named 04-capitaliste  : adresses listed corporation as a response to market logic
+- Module  5 named 05-bank         : deals with banks in the granting of credit and the purchase of debt
+- Module  6 named 06-fund         : examines investment funds in their financing of the economy
+- Module  7 named 07-centralbank  : discusses the role of central banks as regulators
+- Module  8 named 08-ratesreturns : determines different interest rates and rates of return
+- Module  9 named 09-public       : studies the public sector, both government and state-owned enterprises
+- Module 10 named 10-ecosystem    : presents the relationship between the ecosystem and the economy 
+- Module 11 named 11-biomimicry   : contains the intersectoral monetary ‘trophic’ flows
+- Module 12 named 12-stationarity : makes accounting closure and stationarity analysis
+- Module 13 named 13-MonteCarlo   : generates Monte-Carlo parameter sensitivity test
 
 ## LICENSE
 
